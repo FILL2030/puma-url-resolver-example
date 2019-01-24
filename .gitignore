@@ -1,0 +1,20 @@
+.idea
+
+*.iml
+*.iws
+
+target/
+
+# Mac
+.DS_Store
+
+# IntelliJ
+/out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+dependency-reduced-pom.xml

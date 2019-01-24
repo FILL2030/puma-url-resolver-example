@@ -1,0 +1,21 @@
+server:
+  applicationContextPath: /api/v1
+  requestLog:
+    appenders: []
+  applicationConnectors:
+  - type: http
+    port: 9002
+  adminConnectors:
+  - type: http
+    port: 9003
+
+# Logging settings.
+logging:
+
+  # The default level of all loggers. Can be OFF, ERROR, WARN, INFO, DEBUG, TRACE, or ALL.
+  level: INFO
+  loggers:
+    eu.ill: DEBUG
+
+elsevierApiKey: abcdefg
+
